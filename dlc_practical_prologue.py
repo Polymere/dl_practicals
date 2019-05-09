@@ -148,6 +148,7 @@ def generate_pair_sets(nb):
 
 ######################################################################
 def my_generate_pair_sets(nb):
+	# data and targets are nested inside set !
     if args.data_dir is not None:
         data_dir = args.data_dir
     else:
